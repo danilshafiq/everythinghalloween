@@ -111,6 +111,9 @@
       display: grid;
       margin: auto;
       }
+    .home_sec_btn {
+      text-decoration: none!important;
+      }
     }
     
 @media only screen and (max-width: 480px) {
