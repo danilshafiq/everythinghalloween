@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+}
+
+/*Container Breakpoint Order*/
+@media only screen and (max-width: 991px) {
+    .container {
+      margin-bottom: 4.5em; 
+      padding: 0 1.8em;
+      }
+    #logo {
+      width: 170px;
+      height: 170px;
+      margin:  0 auto -1.8em auto;
+      display: flex;
+      }
+    .section_image { 
+      height: 290px!important; 
+      width: 410px!important;
+      }
+    #nav_menu li {
+      font-size: 15px;
+      }
+    }
+
+@media only screen and (max-width: 768px) {
+    .item1 {
+    order: 1;
+        }
+    .item2 {
+    order: 2;
+        }
+    .item3 {
+    order: 4;
+        }
+    .item4 {
+    order: 3;
+        }
+    .item5 {
+    order: 5;
+    }
+    .item6 {
+    order: 6;
+    }
+    .item7 {
+    order: 8;
+    }
+    .item8 {
+    order: 7;
+    }
+}
+
+/*Main - Media Queries*/
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 90%;
+      box-shadow: none;
+      }
+    }
+    
+@media only screen and (min-width: 767px) {
+    #mobile_menu {
+      display: none;
+    }
+  }
+    
+@media only screen and (max-width: 767px) {
+    #logo {
+      width: 150px;
+      height: 150px;
+      margin:  0 auto -1.8em auto;
+      display: flex;
+      }
+    #nav_menu {
+      display: none;
+      }
+    
+    .slicknav_menu {
+      background: black!important;
+      padding: 3px !important;
+      }
+    
+    #mobile_menu {
+      display: block!important;
+      }
+    #mobile_menu ul {
+      background-color: black;
+      }
+    #mobile_menu a {
+      background-color: black;
+      }
+    #mobile_menu a:hover, #mobile_menu a:focus {
+      color: lightsteelblue;
+      }
+    header h2 {
+      font-size: 200%;
+      }
+    main h2, p {
+      text-align: center;
+      }
+    main h2 {
+      margin-top: 0.8em;
+    }
+    button {
+      display: grid;
+      margin: auto;
+    }
+    .section_image { 
+      height: 270px!important; 
+      width: 400px!important;
+      display: grid;
+      margin: auto;
+      }
+    .home_sec_btn {
+      text-decoration: none!important;
+      }
+    }
+    
+@media only screen and (max-width: 480px) {
+    header h2 {
+      font-size: 180%;
+      }
+    header h3 {
+      font-size: 115%;
+      }
+    section p {
+      font-size: 95%;
+      }
+    .section_image { 
+      height: 200px!important; 
+      width: 300px!important;
+      display: grid;
+      margin: auto;
+      }
+    }
+@media only screen and (max-width: 380px) {
+  .section_image { 
+    height: 170px!important; 
+    width: 260px!important;
+    display: grid;
+    margin: auto;
+    }
+  }
+@media only screen and (max-width: 330px) {
+  .section_image { 
+    height: 150px!important; 
+    width: 240px!important;
+    display: grid;
+    margin: auto;
+    }
+  }
