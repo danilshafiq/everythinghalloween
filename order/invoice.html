@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!--External Stylesheet-->
+        <link rel="stylesheet" href="..\styles\invoice.css">
+
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+
+        <!--Tab Display-->
+        <link rel="icon" href="..\images\logo.png">
+        <title>Everything Halloween! - Invoice</title>
+
+        <!--Scripts-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+    </head>
+    <body>
+		<header>
+			<h1>Invoice</h1>
+			<address contenteditable>
+				<p>Danil Shafiq Mazrain</p>
+				<p>1200 S Franklin St<br>Mt. Pleasant, MI 48856</p>
+				<p>(989) 774-4000</p>
+			</address>
+		</header>
+		<article>
+			<h1>Recipient</h1>
+			<address>
+                <img src="..\images\logo.png" id="invoice_img">
+				<h3>Everything Halloween Co.</h3>
+			</address>
+			<table class="meta">
+				<tr>
+					<th><span><strong>Invoice #</strong></span></th>
+					<td><span>198365</span></td>
+				</tr>
+				<tr>
+					<th><span><strong>Date</strong></span></th>
+					<td><span>December 2, 2021</span></td>
+				</tr>
+			</table>
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th><span>Item Name</span></th>
+						<th><span>Quantity</span></th>
+						<th><span>Price</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a class="cut">-</a><span>Halloween Succulent Planter Set</span></td>
+						<td class="quantity"><span>1</span></td>
+						<td><span data-prefix>$</span><span>19.99</span></td>
+					</tr>
+                    <tr>
+						<td><a class="cut">-</a><span>Lighted Halloween Character Trees</span></td>
+						<td class="quantity"><span>1</span></td>
+						<td><span data-prefix>$</span><span>19.99</span></td>
+					</tr>
+                    <tr>
+						<td><a class="cut">-</a><span>Halloween Plush Collection</span></td>
+						<td class="quantity"><span>1</span></td>
+						<td><span data-prefix>$</span><span>5.99</span></td>
+					</tr>
+                    <tr>
+						<td><a class="cut">-</a><span>Set of 2 Seasonal Hanging Kitchen Towels</span></td>
+						<td class="quantity"><span>1</span></td>
+						<td><span data-prefix>$</span><span>19.99</span></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="balance">
+				<tr>
+					<th><span><strong>Sub-total</strong></span></th>
+					<td><span data-prefix>$</span><span>65.96</span></td>
+				</tr>
+				<tr>
+					<th><span><strong>Discount</strong></span></th>
+					<td><span data-prefix>$</span><span>19.79</span></td>
+				</tr>
+				<tr>
+					<th><span><strong>Total Amount</strong></span></th>
+					<td><span data-prefix>$</span><span>46.17</span></td>
+				</tr>
+                <tr>
+					<th><span><strong>Amount Paid</strong></span></th>
+					<td><span data-prefix>$</span><span>50.00</span></td>
+				</tr>
+                <tr>
+					<th><span><strong>Balance Due</strong></span></th>
+					<td><span data-prefix>$</span><span>3.83</span></td>
+				</tr>
+
+			</table>
+		</article>
+
+		<a href="..\index.html"><button type="button" id="home_btn">Return to Home</button></a>
+	</body>
+</html>

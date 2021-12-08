@@ -1,0 +1,92 @@
+/*Container Breakpoint Order*/
+@media only screen and (max-width: 991px) {
+    #logo {
+      width: 170px;
+      height: 170px;
+      margin:  0 auto -1.8em auto;
+      display: flex;
+      }
+    .section_image { 
+      height: 290px!important; 
+      width: 410px!important;
+      }
+    #nav_menu li {
+      font-size: 15px;
+      }
+}
+
+/*Main - Media Queries*/
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 90%;
+      box-shadow: none;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    #coupon_header {
+      padding: 0 2.5em;
+      }
+}    
+    
+@media only screen and (min-width: 767px) {
+    #mobile_menu {
+      display: none;
+      }
+ }
+    
+@media only screen and (max-width: 767px) {
+    #logo {
+      width: 150px;
+      height: 150px;
+      margin:  0 auto -1.8em auto;
+      display: flex;
+      }
+    #nav_menu {
+      display: none;
+      }
+    
+    .slicknav_menu {
+      background: black!important;
+      padding: 3px !important;
+      }
+    
+    #mobile_menu {
+      display: block!important;
+      }
+    #mobile_menu ul {
+      background-color: black;
+      }
+    #mobile_menu a {
+      background-color: black;
+      }
+    #mobile_menu a:hover, #mobile_menu a:focus {
+      color: lightsteelblue;
+      }
+    header h2 {
+      font-size: 200%;
+      }
+    main h2, p {
+      text-align: center;
+      }
+    main h2 {
+      margin-top: 0.8em;
+    }
+    button {
+      display: grid;
+      margin: auto;
+    }
+}
+    
+@media only screen and (max-width: 480px) {
+    header h2 {
+      font-size: 180%;
+      }
+    header h3 {
+      font-size: 115%;
+      }
+    #coupon_header {
+      padding: 0 1.4em!important;
+    }
+
+}

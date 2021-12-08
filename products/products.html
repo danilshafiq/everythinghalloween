@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!--External Stylesheet-->
+        <link rel="stylesheet" href="..\styles\main.css">
+        <link rel="stylesheet" href="..\dist\slicknav.css">
+        <link rel="stylesheet" href="..\styles\main_rwd.css">
+        <link rel="stylesheet" href="..\styles\products.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="..\dist\jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+          $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+          });
+        </script>
+
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+
+        <!--Tab Display-->
+        <link rel="icon" href="..\images\logo.png">
+        <title>Everything Halloween! - Products</title>
+
+        <!--Scripts-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+    </head>
+    <body>
+      
+      <!--Header-->
+        <header>
+            <a href="..\index.html"><img src="..\images\logo.png" alt="" id="logo"></a>
+            <h2>Everything Halloween!</h2>
+            <nav id="mobile_menu"></nav>
+              <nav id="nav_menu">
+                <ul>
+                  <li><a href="..\index.html">Home</a></li>
+                  <li><a href="..\information\information.html">Information</a>
+                    <ul>
+                      <li><a href="..\information\information.html#history_info">History of Halloween</a></li>
+                      <li><a href="..\information\information.html#div2">Haunted Places</a></li>
+                      <li><a href="..\information\information.html#div3">Scary Movies</a></li>
+                      <li><a href="..\demo\demo.html">Multimedia Contents</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="..\calendar\calendar.html">Calendar</a>
+                    <ul>
+                      <li><a href="..\calendar\calendar.html#calendar_header">Check the Calendar</a></li>
+                      <li><a href="..\calendar\calendar.html#coupon_header">Promotions and Discounts</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="..\products\products.html" class="current">Products</a>
+                    <ul>
+                      <li><a href="..\products\products.html#div1">Decorations</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="..\about\about.html">About</a></li>
+                </ul>
+              </nav>
+        </header>
+
+      <!--Main-->
+      <main>
+      <div id="div1">
+      <h2 id="products_header">Our Products Catalogue</h2>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Images</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" id="product1">
+                <img src="..\images\halloween-succulent-planter-set.jpg">
+              </td>
+              <td scope="row">
+                <h3>Halloween Succulent Planter Set</h3>
+                <p><span style="font-weight: 700;">Product 1</span></p>
+                <p>These little succulent planters come with fake plants, but they can be switched out for the real deal. Replace them with 
+                  air plants, cacti, or real succulents. Or take the plants out entirely and use them as storage instead.</p>
+                <P><strong>Price:</strong> $19.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product2">
+                <img src="..\images\halloweentrees.jpg">
+              </td>
+              <td td scope="row" class="row4">
+                <h3>Lighted Halloween Character Trees</h3>
+                <p><span style="font-weight: 700;">Product 2</span></p>
+                <p>Start a new tradition with a Halloween tree! LED lights shine through the branches of the tree, and a scary character head 
+                  serves as the tree topper. It's battery operated so you can place it anywhere indoors or on a covered porch.</p>
+                <P><strong>Price:</strong> $19.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product3">
+                <img src="..\images\spider-web.jpg">
+              </td>
+              <td>
+                <h3>Lighted Spider Web Lace Window Panel or Mantel Scarf</h3>
+                <p><span style="font-weight: 700;">Product 3</span></p>
+                <p>Decorate your home for Halloween in spooky style with this Lighted Spider Web Lace Window Panel or Mantel Scarf. 
+                  Each piece features a woven spider web design with openings throughout to push the LED lights through. Has a pocket to hold the battery case.</p>
+                <P><strong>Price:</strong> $9.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product4">
+                <img src="..\images\gothichalloweendecorations.jpg">
+              </td>
+              <td>
+                <h3>Gothic Rose Halloween Decorations</h3>
+                <p><span style="font-weight: 700;">Product 4</span></p>
+                <p>This Gothic Rose Halloween Decor is something special to add to your Halloween decorations. The Pumpkin features a skeleton hand 
+                  among faux florals. The Wreath is accented with black and red faux roses and all black leaves and branches. It lights up with LED lights. 
+                  Hang it from its black ribbon. The black Broom is trimmed with a faux red rose and black leaves.</p>
+                <P><strong>Price:</strong> $4.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product5">
+                <img src="..\images\tabletop-plaques.jpg">
+              </td>
+              <td>
+                <h3>Halloween Tabletop Plaques</h3>
+                <p><span style="font-weight: 700;">Product 5</span></p>
+                <p>Add to your holiday display with a Halloween Tabletop Plaque and its witty saying. The coffin-shaped sign reads, "Home sweet haunted home." 
+                  The one shaped like a pumpkin reads, "Of course the cobwebs are part of the decor." The tombstone is inscribed, "Park your broom and 
+                  stay for a spell." Each has an easel back for standing on a flat surface.</p>
+                <P><strong>Price:</strong> $3.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product6">
+                <img src="..\images\colorlightedpumpkins.jpg">
+              </td>
+              <td>
+                <h3>Color-Changing Lighted Pumpkins</h3>
+                <p><span style="font-weight: 700;">Product 6</span></p>
+                <p>This Color-Changing Lighted Pumpkin gives off a unique glow as it cycles through shades of blue, purple, pink, red, orange, 
+                  yellow and green. It's highly detailed, with a raised, silhouette-style design that lights up from within. Battery operated to 
+                  go anywhere indoors or on a covered porch to greet trick-or-treaters.</p>
+                <P><strong>Price:</strong> $7.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product7">
+                <img src="..\images\plushcollection.jpg">
+              </td>
+              <td>
+                <h3>Halloween Plush Collection</h3>
+                <p><span style="font-weight: 700;">Product 7</span></p>
+                <p>This Halloween Plush Collection is a cute addition to the seasonal decorations on your mantel, tabletop, buffet or more. 
+                  The Sign reads, "A witch and her little monsters live here with one handsome devil." The Set of 2 Monsters features a mint 
+                  green mummy and a white ghost. The Witch Plush and the Devil Plush combine with the little monsters to bring the words on the 
+                  Sign to life.</p>
+                <P><strong>Price:</strong> $5.99 each</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td scope="row" id="product8">
+                <img src="..\images\kitchentowels.jpg">
+              </td>
+              <td>
+                <h3>Set of 2 Seasonal Hanging Kitchen Towels</h3>
+                <p><span style="font-weight: 700;">Product 8</span></p>
+                <p>The towels feature different pumpkin characters with their own personalities. Decorate the rest of the kitchen 
+                  with pumpkins, bats, and ghosts or let the towels stand out on their own as a subtle decoration for Halloween.</p>
+                <P><strong>Price:</strong> $19.99</P>
+                <a href="#"><button type="button" class="atc_button">Add to Cart!</button></a>
+              </td>
+            </tr>
+        </table>
+      </div>
+
+      <a href="..\order\checkout.html"><button id="checkout_button" type="button">Checkout Here!</button></a>
+      </div>
+    </main>
+    </body>
+
+    <!--Footer-->
+    <footer>
+      <p><b>&copy; 2021 Everything Halloween Co. created by The Novice Coders | All Rights Reserved</b></p>
+    </footer>
+
+    <!--Slicknav Scripts-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../dist/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+	  $('#menu').slicknav();
+    });
+    </script>
+
+    <!--Bootstrap Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>

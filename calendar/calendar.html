@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <!--External Stylesheet-->
+        <link rel="stylesheet" href="..\styles\main.css">
+        <link rel="stylesheet" href="..\dist\slicknav.css">
+        <link rel="stylesheet" href="..\styles\calendar_rwd.css">
+        <link rel="stylesheet" href="..\styles\calendar.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="..\dist\jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+          $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+          });
+        </script>
+
+        <!--Google Fonts-->
+        <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+
+        <!--Tab Display-->
+        <link rel="icon" href="..\images\logo.png">
+        <title>Everything Halloween! - Calendar</title>
+
+        <!--Scripts-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+    </head>
+    <body>
+      
+      <!--Header-->
+        <header>
+            <a href="..\index.html"><img src="..\images\logo.png" alt="" id="logo"></a>
+            <h2>Everything Halloween!</h2>
+            <nav id="mobile_menu"></nav>
+              <nav id="nav_menu">
+                <ul>
+                  <li><a href="..\index.html">Home</a></li>
+                  <li><a href="..\information\information.html">Information</a>
+                    <ul>
+                      <li><a href="..\information\information.html#history_info">History of Halloween</a></li>
+                      <li><a href="..\information\information.html#div2">Haunted Places</a></li>
+                      <li><a href="..\information\information.html#div3">Scary Movies</a></li>
+                      <li><a href="..\demo\demo.html">Multimedia Contents</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="..\calendar\calendar.html" class="current">Calendar</a>
+                    <ul>
+                      <li><a href="..\calendar\calendar.html#calendar_header">Check the Calendar</a></li>
+                      <li><a href="..\calendar\calendar.html#coupon_header">Promotions and Discounts</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="..\products\products.html">Products</a>
+                    <ul>
+                      <li><a href="..\products\products.html#div1">Decorations</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="..\about\about.html">About</a></li>
+                </ul>
+              </nav>
+        </header>
+
+      <!--Main-->
+      <main>
+      <h2 id="calendar_header">Calendar</h2>
+      <div id="calendar">
+      <div class="month">      
+        <ul>
+          <li class="prev">&#10094;</li>
+          <li class="next">&#10095;</li>
+          <li style="font-weight: 700;">
+            December<br>
+            <span style="font-size:20px; font-weight: 600;">2021</span>
+          </li>
+        </ul>
+      </div>
+      
+      <ul class="weekdays">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+      </ul>
+      
+      <ul class="days">  
+        <li><span class="active">1</span></li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+      </ul>
+    </div>
+
+    <hr>
+    <h2 id="coupon_header">Enjoy the promotions and discounts we have for you this month!</h2>
+    <div class="coupon">
+      <div class="container container_coupon">
+        <img src="..\images\logo.png" class="coupon_logo">
+        <h3>Everything Halloween Co.</h3>
+      </div>
+      <img src="..\images\couponimage1.jpg" class="coupon_img" style="width:100%;">
+      <div class="container container_coupon" style="text-align: center;">
+        <h2><b>30% OFF YOUR PURCHASE</b></h2>
+        <p>Enjoy a 30% off upon your purchase with minimum spending of $50!</p>
+      </div>
+      <div class="container container_coupon">
+        <p>Use Promo Code: <span class="promo">HWN584</span></p>
+        <p class="expire">Expires: Jan 1, 2022</p>
+      </div>
+    </div>
+    <div class="coupon">
+      <div class="container container_coupon">
+        <img src="..\images\logo.png" class="coupon_logo">
+        <h3>Everything Halloween Co.</h3>
+      </div>
+      <img src="..\images\couponimage2.webp" class="coupon_img" style="width:100%;">
+      <div class="container container_coupon" style="text-align: center;">
+        <h2><b>15% OFF YOUR PURCHASE</b></h2>
+        <p>Enjoy a 15% off upon your purchase with minimum spending of $30!</p>
+      </div>
+      <div class="container container_coupon">
+        <p>Use Promo Code: <span class="promo">HWN945</span></p>
+        <p class="expire">Expires: Jan 1, 2022</p>
+      </div>
+    </div>
+
+        </main>
+    </body>
+
+    <!--Footer-->
+    <footer>
+      <p><b>&copy; 2021 Everything Halloween Co. created by The Novice Coders | All Rights Reserved</b></p>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../dist/jquery.slicknav.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+	  $('#menu').slicknav();
+    });
+    </script>
+</html>

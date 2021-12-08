@@ -1,0 +1,128 @@
+/*Main*/
+main {
+  margin: 4em 0 4em 0;
+}
+h2 {
+  text-align: center;
+}
+#calendar_header {
+  margin-bottom: 1.5em;
+  font-weight: 700;
+}
+#calendar {
+  width: 90%;
+  height: auto;
+  display: grid;
+  margin: 0 auto 5em auto;
+}
+.month {
+  padding: 3em 25px;
+  background: teal;
+  text-align: center;
+  }
+.month ul {
+  margin: 0;
+  padding: 0;
+  }
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  list-style-type: none;
+  }
+.month .prev {
+  float: left;
+  padding-top: 10px;
+  } 
+.month .next {
+  float: right;
+  padding-top: 10px;
+  }
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  }
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+  }
+.days {
+  padding: 0.625em 0;
+  background: #eee;
+  margin: 0;
+  }
+.days li {
+  list-style-type: none;
+  padding: .5em;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:16px;
+  color: #777;
+  }
+.days li .active {
+  padding: 0.313em 0.7em;
+  background: teal;
+  color: white !important
+  }
+hr:not([size]) {
+  height: 3px;
+  color: black!important;
+}
+#coupon_header {
+  margin: 2em 0 1.5em 0;
+  padding: 0 4em;
+  font-weight: 700;
+}
+.coupon {
+  background-color: white;
+  border: 5px dotted #bbb; /* Dotted border */
+  width: 80%;
+  border-radius: 15px; /* Rounded border */
+  margin: 3.5em auto; /* Center the coupon */
+  max-width: 450px;
+}
+ .coupon_logo {
+  width: 140px;
+  height: 140px;
+  display: grid;
+  margin: 1em auto;
+}
+.coupon_img {
+  margin-bottom: 2em;
+}
+h3 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: -1.3em;
+}
+.container_coupon {
+  padding: 2px 16px;
+  background-color: white;
+}
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+.expire {
+  color: red;
+}
+  
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+  }
+  
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+  }
+  
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+  }

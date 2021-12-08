@@ -1,0 +1,26 @@
+/*Main*/
+main {
+    margin: 4em 0 4em 0;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 0 2.5em;
+}
+.container {
+    margin: 3.5em auto;
+}
+.container p {
+    padding: 1em 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .container p {
+    padding: 1em .5em;
+    }
+}

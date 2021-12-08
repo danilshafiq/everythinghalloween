@@ -1,0 +1,84 @@
+/*Container Breakpoint Order*/
+@media only screen and (max-width: 991px) {
+    #logo {
+      width: 170px;
+      height: 170px;
+      margin:  0 auto -1.8em auto;
+      display: flex;
+      }
+    #nav_menu li {
+      font-size: 15px;
+      }
+    }
+
+@media only screen and (max-width: 768px) {
+    .item1 {
+      order: 1;
+      }
+    .item2 {
+      order: 2;
+      }
+    .item3 {
+      order: 4;
+      }
+    .item4 {
+      order: 3;
+      }
+    .item5 {
+      order: 5;
+      }
+    .item6 {
+      order: 6;
+      }
+    .item7 {
+      order: 8;
+      }
+    .item8 {
+      order: 7;
+      }
+}
+
+/*Main - Media Queries*/
+@media only screen and (max-width: 900px) {
+    body {
+      font-size: 90%;
+      box-shadow: none;
+      }
+}
+    
+@media only screen and (min-width: 767px) {
+    #mobile_menu {
+      display: none;
+    }
+}
+    
+@media only screen and (max-width: 767px) {
+    #logo {
+      width: 150px;
+      height: 150px;
+      margin:  0 auto -1.8em auto;
+      display: flex;
+      }
+    #nav_menu {
+      display: none;
+      }
+    
+    .slicknav_menu {
+      background: black!important;
+      padding: 3px !important;
+      }
+    
+    #mobile_menu {
+      display: block!important;
+      }
+    #mobile_menu ul {
+      background-color: black;
+      }
+    #mobile_menu a {
+      background-color: black;
+      }
+    #mobile_menu a:hover, #mobile_menu a:focus {
+      color: lightsteelblue;
+      }
+}
+    
